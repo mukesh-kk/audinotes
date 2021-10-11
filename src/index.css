@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #16202f;
+  background-image: url(https://i.pinimg.com/originals/34/79/51/347951748c880e85acd18299cdf9119b.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+  
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#uploadbtn{
+  background-color: transparent;;
+  color:white;
+  padding:5px 20px;
+   ;
+  border:1px solid white;
+  border-radius:3px;
+  margin-top:40px;
+  color :pink;
+}
+.x{background-color: pink;}
+.fas{
+  margin:2px 5px;
+  color:white;
+  font-size: larger;
+}
+.btn{margin-top: 10px;
+  color:white;
+  border-color: white;
+  margin-right:10px;
+}
+.btn:hover{
+  background-color: 
+ 
+#486583;
+}
+.btn{
+  box-shadow: transparent;
+}
+.timestmp{
+  color:white;
+  font-size: larger;
+}
+.notepara{
+  color:pink
+}
+.hovertext{
+  display: none;
+}
+.waveformcont:hover+.hovertext{
+  display:block;
+  color:white;
+}
+.notesflex{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  margin-left: 5%;
+}
+.line0{
+ display: inline-block;
+ width:10%;
+ background-color:#4e7cb8;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius:5px ;
+ text-align: center;
+ padding-top:7px;
+ padding-bottom: 7px;
+ border-bottom: 2px solid black;
+ margin-bottom: 2px;
+}
+.line1{
+  display: inline-block;
+  width:90%
+  ;background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 5px;
+  padding-top:7px;
+ padding-bottom: 7px;
+ margin-bottom: 2px;
+ 
+ border-width: 2px;
+ border-color: black;
+
+}
+.line2{
+  margin-bottom: 5px;
+  display: inline-block;
+ width:10%;
+ background-color: #4e7cb8;;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius:5px ;
+ text-align: center;
+ padding-top:7px;
+ padding-bottom: 7px;
+ color:white;
+ font-weight: bold;
+}
+.line3{
+  margin-bottom: 5px;
+  display: inline-block;
+  width:90%
+  ;background-color: rgb(250, 224, 250);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 5px;
+  padding-top:7px;
+ padding-bottom: 7px;
+ text-align: center;
+ color:
+ #486283;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+
+
+
+/* .boxcont{
+  width:100%;
+  overflow: hidden;
+} */
