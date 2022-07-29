@@ -30,7 +30,11 @@ code {
   margin-top:40px;
   color :pink;
 }
-.x{background-color: pink;}
+.x{background-color: pink;
+border: 2px solid pink;
+border-radius: 2px;
+font-weight: bold;
+;color: white;}
 .fas{
   margin:2px 5px;
   color:white;

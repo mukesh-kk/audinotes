@@ -14,7 +14,7 @@ export default function Note(props){
             <div>
             <div class="container">
                 <div>
-                <form class="row g-3"onSubmit={(event)=>{
+                <form class="row g-3 mt-5 ms-3" onSubmit={(event)=>{
                     const formData = new FormData(event.currentTarget);
                     event.preventDefault();
                     for (let [key, value] of formData.entries()) {
@@ -23,19 +23,14 @@ export default function Note(props){
                           return [...p,[p.length+1  ,value]]
                       });
                     }}}>
-  <div class="col-auto">
-    
-    
-  </div>
-  <div class="col-auto">
-    <label for="inputPassword2" class="visually-hidden">Note</label>
-    <input type="text" class="form-control" id="notei" placeholder="note"name="notii" />
-  </div>
-  <div class="col-auto">
-    <button type="submit" class="btn  x btn-primary mb-3"name="submit">Ok</button>
-  </div>
+
+  
+    <div style={{display:"flex",justifyContent:"center" ,width:"40%"}} ><input style={{height:"2.3em",padding:"3px",alignSelf:"center",borderRadius:"5px",outlineStyle:"none",borderStyle:"none"}} type="text" class="w-100" id="notei" placeholder="Add your notes"name="notii" />
+    <button  style={{alignSelf:"center",}}type="submit" class=" ms-5 x"name="submit">ADD</button>
+    </div>
+  
 </form>
-                </div>
+ </div>
                     
   <div class="row mt-3">
     
