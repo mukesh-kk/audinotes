@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useStateuseRef } from "react";
 
 import Note from "./Note";
 var WaveSurfer = require("wavesurfer.js");
@@ -11,7 +11,10 @@ function equlityofprev(p, n) {
     return false;
   }
 }
+
+
 const Wavecom = React.memo(function Wavecom(props) {
+
   if (props.prev) {
     var wavesurfer = WaveSurfer.create({
       container: "#waveform1",
